@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Administração empresa</title>
+</head>
+<body>
+    <label for="funcionarioCodigoInput">Código:</label>
+    <input type="text" id="funcionarioCodigoInput" placeholder="Código">
+    <p id="errorMSGId">error</p>
+
+    <label for="funcionarioCategoriaInput">Categoria (O ou G):</label>
+    <input type="text" id="funcionarioCategoriaInput" placeholder="Categoria">
+    <p id="errorMSGCategoria">error</p>
+
+    <label for="funcionarioTurnoInput">Turno (M, V ou N):</label>
+    <input type="text" id="funcionarioTurnoInput" placeholder="Turno">
+    <p id="errorMSGTurno">error</p>
+
+    <label for="funcionarioHrsMesInput">Horas trabalhadas no mês:</label>
+    <input type="text" id="funcionarioHrsMesInput" placeholder="Horas trabalhadas no mês">
+    <p id="errorMSGHrsMes">error</p>
+      
+    <button class="btnVerify">Verificar</button>
+
+    <div id="containerFuncionarios">
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

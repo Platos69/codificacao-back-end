@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vagas</title>
+</head>
+<body>
+    <h1 id="candidatoId"></h1>
+    <label for="idade">Idade: </label>
+    <input type="text" id="idade" placeholder="Idade">
+    <label for="sexo">Sexo: </label>
+    <input type="text" id="sexo" placeholder="Sexo">
+    <label for="temExperiencia">Tem experiencia de serviço? (S ou N): </label>
+    <input type="text" id="temExperiencia" placeholder="Experiencia de serviço">
+
+    <button id="btnSubmit">Verificar</button>
+
+    <h2>Estatisticas</h2>
+    <div class="containerEstatisticas">
+        <div>
+            <h3>Números de candidatos homem: </h3>
+            <div class="nCandidatosM">
+                Nenhum
+            </div>
+        </div>
+        <div>
+            <h3>Números de candidatos mulher: </h3>
+            <div class="nCandidatosF">
+                Nenhum
+            </div>
+        </div>
+        <div>
+            <h3>Idade média dos homens que já têm experiência no serviço: </h3>
+            <div class="idadeExperienciaM">
+                Nenhum
+            </div>
+        </div>
+        <div>
+            <h3>Porcentagem dos homens com mais de 45 anos: </h3>
+            <div class="porcentagemEspecifica">
+                Nenhum
+            </div>
+        </div>
+        <div>
+            <h3>Mulheres com idade inferior a 21 anos:</h3>
+            <div class="mulheresIdadeInferior">
+                Nenhum
+            </div>
+        </div>
+        <div>
+            <h3>Menor idade entre as mulheres que já têm experiência no serviço:</h3>
+            <div class="mulheresExperiencia">
+                Nenhum
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
