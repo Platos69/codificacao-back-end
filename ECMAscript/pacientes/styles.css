@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+html {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
